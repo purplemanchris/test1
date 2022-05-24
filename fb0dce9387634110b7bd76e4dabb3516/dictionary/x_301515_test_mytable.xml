@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element extends="task" label="mytable" max_length="40" name="x_301515_test_mytable" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Display name" max_length="300" name="display_name" read_only="true" type="string"/>
         <element label="Test1" max_length="40" name="test1" type="boolean"/>
     </element>
 </database>
